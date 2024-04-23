@@ -1,8 +1,8 @@
 import os
 # from os.path import isfile 
 import re
-
-path = r"C:\Users\nikhi\Downloads"
+# path = add path to ur downloads folder
+path = r"C:<path>"
 os.chdir(path)
 
 for root,dir,files in os.walk(path):
