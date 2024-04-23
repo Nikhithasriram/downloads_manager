@@ -1,8 +1,8 @@
 import os
 from os.path import isfile 
-# path = "C:\Users\nikhi\Downloads"
 
-path = r"C:\Users\nikhi\Downloads"
+# path = add the path to ur downloads folder
+path = r"C:<path>"
 os.chdir(path)
 folders = ['pdf' , 'ppt' , 'images' , 'photoshop' , 'ZIP' , 'word_excel' , 'random']
 pdf_path = os.path.join(path , folders[0])
